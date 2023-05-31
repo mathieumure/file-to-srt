@@ -6,9 +6,12 @@
   "scripts": {
     "start": "ts-node index.ts"
   },
+  "bin": {
+    "file-to-srt": "./bin/index.ts"
+  },
   "keywords": [],
   "engines": {
-    "node": "^16"
+    "node": ">=18"
   },
   "author": "mathieu.mure@gmail.com",
   "license": "ISC",
@@ -16,6 +19,6 @@
     "ts-node": "^10.9.1"
   },
   "devDependencies": {
-    "@types/node": "^20.1.2"
+    "@types/node": "^18.16.16"
   }
 }
