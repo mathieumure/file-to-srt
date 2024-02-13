@@ -4,7 +4,7 @@
   "description": "",
   "main": "./bin/index.js",
   "scripts": {
-    "start": "ts-node index.ts"
+    "start": "ts-node bin/index.ts"
   },
   "bin": {
     "file-to-srt": "./bin/index.ts"

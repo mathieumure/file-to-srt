@@ -7,7 +7,7 @@ const commandLineArgs = parseArgs({
     options: {
         videoDuration: {
             short: 'd',
-            type: "string"
+            type: "string",
         },
         output: {
             short: 'o',
